@@ -1,12 +1,27 @@
-body{
+body {
   margin: 0;
   padding: 0;
   text-align: center;
   background: white;
-  background-size: cover;
-  background-position: center;
+  background-image: url(images/wavylines.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
   font-family: calibri;
+
+  color: black;
+  font-family: "Soin Sans Pro";
+  font-size: 18px;
+
+  padding: 100px 50px;
 }
+
+a:link {
+  color: white;
+  background-color: #c4fff5;
+  text-decoration: none;
+  font-size: 20px
+}
+
 .Contact-Me{
   margin-top: 100px;
   color: white;
@@ -26,7 +41,7 @@ form{
 }
 .form-control{
   width: 600px;
-  background: #00AFA4;
+  background: #c4fff5;
   border: none;
   outline: none;
   boder-bottom: 1px solid gray;
@@ -38,7 +53,7 @@ input{
   height: 45px;
 }
 form .submit{
-  background: #ff5722;
+  background: #cf9eff;
   border-color: transparent;
   color: #fff;
   font-size: 20px;

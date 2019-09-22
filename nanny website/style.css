@@ -1,30 +1,40 @@
 body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+  margin: 70px;
+  padding: 150px;
   background: white;
   background-image: url(images/wavylines.gif);
   background-repeat: no-repeat;
   background-size: contain;
-  font-family: calibri;
-
+  font-family: sans-serif;
   color: black;
-  font-family: "Soin Sans Pro";
+  font-family: "calibri";
   font-size: 18px;
-
   padding: 100px 50px;
 }
 
-a:link {
+.contact-form {
+  text-align: center;
+}
+
+.h1 {
+  font-family: sans-serif;
+}
+
+.navigation a:link {
   color: white;
-  background-color: #c4fff5;
+  background-color: #ceefd6;
   text-decoration: none;
-  font-size: 20px
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent;
 }
 
 .Contact-Me{
   margin-top: 100px;
-  color: white;
+  color: black;
   text-transform: uppercase;
   transition: all 4s ease-in-out;
 }
@@ -41,11 +51,11 @@ form{
 }
 .form-control{
   width: 600px;
-  background: #c4fff5;
+  background: #ceefd6;
   border: none;
   outline: none;
   boder-bottom: 1px solid gray;
-  color: white;
+  color: black;
   font-size: 18px;
   margin-bottom: 16px;
 }
@@ -53,7 +63,7 @@ input{
   height: 45px;
 }
 form .submit{
-  background: #cf9eff;
+  background: #07737c;
   border-color: transparent;
   color: #fff;
   font-size: 20px;

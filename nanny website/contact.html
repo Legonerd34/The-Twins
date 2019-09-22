@@ -1,48 +1,40 @@
 <html>
 <head>
   <title>Angela Greenwood</title>
-  <style>
-    body {
-      background: #ffffff;
-      color: black;
-      font-family: "Soin Sans Pro";
-      font-size: 18px;
-      padding: 100px;
-      <div class="bg-img website background.png" style="background-image:url(images/hero-home.png);"></div>
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Contact Details</h1>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-    a:link {
-      color: white;
-      background-color: #c4fff5;
-      text-decoration: none;
-      font-size: 20px
-    }
-    </style>
-    <a href="index.html">Home</a>
-    <div class="contact-title">
-      <h2>Contact Me</h2>
-
-
-
-    </div>
-
     <div class="contact-form">
+      <h1>Contact Details</h1>
 
-      <form id="contact-form" method="post" action="contact-form-handler.php">
-        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="My Background.html">My Background</a>
+        <a href="contact.html">Contact Details</a>
+        <a href="publi.html">Publications</a>
+        <a href="links.html">Useful Links</a>
+        <a href="offer.html">Services I can offer</a>
+      </div>
 
-        <input name=" email" type="email" class="form-control" placeholder="Your email" required><br>
+      <div class="contact-title">
+        <h2>Contact Me</h2>
 
-        <textarea name="massage" class="form-control" placeholder="message" rows="4" required></textarea><br>
 
-        <input type="submit" class="form-control submit" value="SEND MESSAGE">
-    </form>
 
+      </div>
+
+      <div class="contact-form">
+
+        <form id="contact-form" method="post" action="contact-form-handler.php">
+          <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+
+          <input name=" email" type="email" class="form-control" placeholder="Your email" required><br>
+
+          <textarea name="massage" class="form-control" placeholder="message" rows="4" required></textarea><br>
+
+          <input type="submit" class="form-control submit" value="SEND MESSAGE">
+      </form>
+
+      </div>
     </div>
-
 </body>
